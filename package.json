@@ -2,8 +2,8 @@
   "name": "hooey",
   "version": "1.0.0",
   "description": "A npm package to generate nonsensical strings of text",
-  "types": "lib/hooey.d.ts",
-  "main": "lib/hooey",
+  "types": "dist/hooey.d.ts",
+  "main": "dist/hooey",
   "scripts": {
     "build": "tsc",
     "test": "jest",
@@ -18,7 +18,7 @@
     "url": "https://github.com/CatDevz/hooey/issues"
   },
   "files": [
-    "lib/**/*"
+    "dist/**/*"
   ],
   "homepage": "https://github.com/CatDevz/hooey",
   "author": "CatDevz",
